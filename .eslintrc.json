@@ -1,5 +1,8 @@
 {
   "extends": "next/core-web-vitals",
   "avoidEscape": true,
-      "allowTemplateLiterals": true
+      "allowTemplateLiterals": true,
+      "rules" : {
+        "react/no-unescaped-entities": 1
+      }
 }
